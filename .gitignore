@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Project working files (kept local, not for portfolio viewers)
+CLAUDE.md
+PROJECT_PLAN.md
+
+# Data files (download instructions live in README; raw data is never committed)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models: small artifacts (e.g. XGBoost on this dataset, <5 MB) are committed
+# explicitly. Add large model files here individually as they appear.
