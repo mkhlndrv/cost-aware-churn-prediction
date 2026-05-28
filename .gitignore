@@ -232,6 +232,7 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/test_set.csv
 
 # Trained models: small artifacts (e.g. XGBoost on this dataset, <5 MB) are committed
 # explicitly. Add large model files here individually as they appear.
